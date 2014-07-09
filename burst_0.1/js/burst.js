@@ -13,7 +13,7 @@ var steps = 100;
 var linewidth = 5;
 var radians = Math.radians(degrees);
 var centerX = $(window).width()/2;
-var centerY = $(window).height()/2;
+var centerY = $(window).height()/2-200;
 var c = document.getElementById('burst');
 var ctx = c.getContext("2d");
 var colorArray = ["#b7121a","#ff9900","#fecc2e","#ff6600","#298658","#1788a3"];
@@ -46,3 +46,19 @@ function makeCircle(){
 }
 
 makeCircle();
+
+$("#burst").change(function() {
+	ctx.clearRect(0, 0, this.width, this.height);
+	makeCircle();
+});
+
+$("#submit").click(function() {
+	radius = $("input[name=innercirc]").val();
+	outerCircle = $("input[name=outercirc]").val();
+	degrees = $("input[name=deg]").val();
+	radians = Math.radians(degrees);
+	steps = $("input[name=steps]").val();
+	linewidth = $("input[name=linewidth]").val();
+	
+  $("#burst").change();
+});

@@ -19,9 +19,16 @@
 </head>
 <!-- !Body -->
 <body>
+
 	<div id="container">
-		<canvas id="burst" width='2000' height='2000'></canvas>
+		Inner Circle radius: <input type="number" name="innercirc" value="200" /><br />
+		Outer Circle radius: <input type="number" name="outercirc" value="250" /><br />
+		Degrees of separation: <input type="number" name="deg" value="3.6" /><br />
+		Line width: <input type="number" name="linewidth" value="5" /><br />
+		Number of steps: <input type="number" name="steps" value="100" /><br />
+		<input type="submit" value="make new burst" id='submit'>
 	</div><!--!/#container -->
+	<canvas id="burst" width='2000' height='2000'></canvas>
 	<!-- !Javascript - at the bottom for fast page loading -->
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
