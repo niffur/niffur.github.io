@@ -39,7 +39,7 @@
   function makeConfetti(is_first) {
   
     //var confettis = ['2730', '272F', '272B', '272C', '2727', '2729'];
-    var confettis = ['2b25', '270a', '2728', '2764', '2726', '2605'];
+    var confettis = ['2730', '272F', '2606', '2605', '2726', '2727'];
     //var colors = ['red','blue','green','red','yellow','purple','pink','lightGreen','lightBlue'];
     var colors = ['#009464','#f9a033','#ffdd69','#ffdd69','#fcb733','#c14350'];
     var sizes = ['tiny', 'tiny', 'tiny', 'small', 'small', 'small', 'small', 'medium', 'medium', 'medium', 'medium', 'medium', 'medium', 'large', 'massive'];
