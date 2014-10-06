@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+	
+	background: rgb(255,255,255);
+background: -moz-linear-gradient(left,  rgb(255,255,255) 0%, rgb(204,204,204) 35%, rgb(204,204,204) 65%, rgb(255,255,255) 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(255,255,255)), color-stop(35%,rgb(204,204,204)), color-stop(65%,rgb(204,204,204)), color-stop(100%,rgb(255,255,255)));
+background: -webkit-linear-gradient(left,  rgb(255,255,255) 0%,rgb(204,204,204) 35%,rgb(204,204,204) 65%,rgb(255,255,255) 100%);
+background: -o-linear-gradient(left,  rgb(255,255,255) 0%,rgb(204,204,204) 35%,rgb(204,204,204) 65%,rgb(255,255,255) 100%);
+background: -ms-linear-gradient(left,  rgb(255,255,255) 0%,rgb(204,204,204) 35%,rgb(204,204,204) 65%,rgb(255,255,255) 100%);
+background: linear-gradient(to right,  rgb(255,255,255) 0%,rgb(204,204,204) 35%,rgb(204,204,204) 65%,rgb(255,255,255) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+
+	
+}
+
+/*http://metervara.net*/
+
+/*
+blue 			#009464
+dk orange 		#f9a033
+yellow			#ffdd69
+green			#44bc9b
+orange			#fcb733
+red				#c14350
+*/
