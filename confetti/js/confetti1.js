@@ -49,8 +49,9 @@
     confettiElement.className = 'confetti ' + randomItem(sizes);
 
     var confetti = document.createElement('span');
-    confetti.innerHTML = '&#x' + randomItem(confettis) + ';';
-    confetti.style.color = randomItem(colors);
+    //confetti.innerHTML = '&#x' + randomItem(confettis) + ';';
+    confetti.innerHTML = "<img src='images/pattern-2.png'/>";
+    //confetti.style.color = randomItem(colors);
 
     confettiElement.appendChild(confetti);
 
@@ -69,7 +70,8 @@
     // how long to wait before the confettis arrive
     var confettiDelay = is_first ? 0 : durationValue(randomFloat(0, 7));
 
-    confettiElement.style.webkitAnimationName = 'fade, drop';
+    //confettiElement.style.webkitAnimationName = 'fade, drop';
+    confettiElement.style.webkitAnimationName = 'fade, rise';
     confettiElement.style.webkitAnimationDuration = fadeAndDropDuration + ', ' + fadeAndDropDuration;
     confettiElement.style.webkitAnimationDelay = confettiDelay;
 

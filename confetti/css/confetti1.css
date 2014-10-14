@@ -7,14 +7,7 @@ html, body {
 
 body{
 	
-	background: #0094b4;
-	background: -moz-linear-gradient(left,  #0094b4 0%, #44bc9b 35%, #44bc9b 65%, #0094b4 100%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0094b4), color-stop(35%,#44bc9b), color-stop(65%,#44bc9b), color-stop(100%,#0094b4));
-	background: -webkit-linear-gradient(left,  #0094b4 0%,#44bc9b 35%,#44bc9b 65%,#0094b4 100%);
-	background: -o-linear-gradient(left,  #0094b4 0%,#44bc9b 35%,#44bc9b 65%,#0094b4 100%);
-	background: -ms-linear-gradient(left,  #0094b4 0%,#44bc9b 35%,#44bc9b 65%,#0094b4 100%);
-	background: linear-gradient(to right,  #0094b4 0%,#44bc9b 35%,#44bc9b 65%,#0094b4 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0094b4', endColorstr='#0094b4',GradientType=1 );
+	background: #222;
 	
 }
 
@@ -118,6 +111,12 @@ red				#c14350
         0%   { -webkit-transform: translate(0px, -40px); }
         100% { -webkit-transform: translate(0px, 700px); }
 }
+
+@-webkit-keyframes rise {
+        0%   { -webkit-transform: translate(0px, 700px); }
+        100% { -webkit-transform: translate(0px, -40px); }
+}
+
 
 @-webkit-keyframes clockwiseSpin {
         0%   { -webkit-transform: rotate(-70deg); }
